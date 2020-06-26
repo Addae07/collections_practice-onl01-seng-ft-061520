@@ -19,3 +19,9 @@ def kesha_maker(arr)
   end
   arr
 end
+
+def find_a(arr)
+  arr.select do |x|
+    x[0] == "a"
+  end
+end
