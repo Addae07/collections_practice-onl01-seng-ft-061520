@@ -25,3 +25,7 @@ def find_a(arr)
     x[0] == "a"
   end
 end
+def sum_array(arr)
+  arr.inject(:+)
+end
+
