@@ -28,4 +28,11 @@ end
 def sum_array(arr)
   arr.inject(:+)
 end
-
+def add_s(arr)
+  for i in 0...arr.length
+    if i != 1
+      arr[i] += "s"
+    end
+  end
+  arr
+end
