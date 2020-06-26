@@ -7,9 +7,7 @@ def sort_array_desc(arr)
   end
 end
 def sort_array_char_count(arr)
-  arr.sort do ["dogs", "cat", "Horses"]
-  
-end
+  arr.sort {|a,b| a.length <=> b.length}
 end
 def swap_elements(arr)
   arr[2], arr[1] = arr[1], arr[2]
