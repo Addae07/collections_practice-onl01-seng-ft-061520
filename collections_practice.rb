@@ -6,8 +6,9 @@ def sort_array_desc(arr)
     y<=>x
   end
 end
-def sort_array_char_count(["dogs", "cat", "Horses"])
-  arr.sort
+def sort_array_char_count(arr)
+  arr.sort do ["dogs", "cat", "Horses"]
+  
 end
 def swap_elements(arr)
   arr[2], arr[1] = arr[1], arr[2]
